@@ -85,8 +85,10 @@ class _HomeGeradorState extends State<HomeGerador> {
 
                   numberController.text = '';
                   messengerController.text = '';
+                }else{
+                  _onFail('Há campos em branco, por favor verifique!');
                 }
-                _onFail('Há campos em branco, por favor verifique!');
+                
               },
             ),
             button(
@@ -99,8 +101,10 @@ class _HomeGeradorState extends State<HomeGerador> {
                         "https://api.whatsapp.com/send?phone=$phoneNumber";
                   });
                   alertLink();
+                }else{
+                  _onFail('O telefone não está preenchido. Por favor verifique.');
                 }
-                _onFail('O telefone não está preenchido. Por favor verifique.');
+                
               },
             ),
             Padding(
