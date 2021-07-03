@@ -15,6 +15,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O projeto Gerador de Link para Whatsapp, consiste em um aplicativo que permite ao usuário digitar o número do telefone celular do destinário e através do aplicativo, abrir diretamente na conversa ou gerar um link com acesso á conversa, sem que seja necessário o cadastro deste número na lista de contatos de seu aparelho.
 
+## 📱 Screenshots
+<div>
+  <img src="https://github.com/jhonathanqz/Gerador_link_whatsapp/blob/master/screenshots/home1.jpg" width="600px" style="max-width:100%;" alt="imagem do projeto">
+</div>
+
 ## ▶️ Como executar
 
 - Clone o repositório
